@@ -13,4 +13,4 @@
 
     CSS3, HTML5
     Babel, Gulp, ES6, Pug(template engine),
-    ThreeJS, SASS
+    SASS
