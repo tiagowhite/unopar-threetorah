@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Tiago de A. Fernandes -- Web Developer -- https://twitter.com/tiagowhite
+
+# THANKS
+
+    Psychotropics and my Mom
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Babel, Gulp, ES6, Pug(template engine),
+    ThreeJS, SASS

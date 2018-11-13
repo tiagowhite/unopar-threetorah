@@ -1,0 +1,45 @@
+/*
+ _Typography
+ */
+
+$font-size: 18px;
+$font-family-monospace: 'Space Mono', monospace !important;
+$font-family-serif: 'Work Sans', sans-serif;
+
+$heading-family: $font-family-monospace;
+$heading-weight: 300;
+
+$form-font: $font-family-monospace;
+
+/*
+ _Colors
+ */
+
+$gray-base:                   #000 !default;
+$gray-darker:                 lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:                   lighten($gray-base, 20%) !default;   // #333
+$gray:                        lighten($gray-base, 33.5%) !default; // #555
+$gray-light:                  lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:                lighten($gray-base, 93.5%) !default; // #eee
+
+//#PINK
+$pink-base:				            rgba(238, 23, 118, 1) !default;
+$pink-light:			            rgba(255, 76, 193, 1) !default;
+
+//#PURPLE
+$purple-dark: 			          rgba(31, 13, 35, 1) !default;
+$purple-base:			            rgba(42, 24, 76, 1) !default;
+$purple-light:			          rgba(91, 80, 114,1)	!default;
+$purple-lighter:		          lighten($purple-light, 46.7%) !default;
+
+//#YELLOW
+$yellow-base:			            rgba(204, 187, 174, 1);
+$yellow-text:                 rgba(248, 245, 179, 1);
+//#DEFAULTS
+$site-background-color: 		  $purple-dark;
+$site-h1-hello: 			        $pink-base;
+$site-p-hello: 				        $purple-lighter;
+
+//Defaul images
+$site-logo: 				          url('../img/logo0a.png');
+$site-background-image:       url('../img/bg00.jpg');
