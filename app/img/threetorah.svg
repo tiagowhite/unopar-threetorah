@@ -1,29 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-<style type="text/css">
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 100 100"
+   style="enable-background:new 0 0 100 100;"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="threetorah.svg"><metadata
+     id="metadata19"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs17" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1373"
+     inkscape:window-height="637"
+     id="namedview15"
+     showgrid="false"
+     inkscape:zoom="1.668772"
+     inkscape:cx="-9.6141414"
+     inkscape:cy="106.94925"
+     inkscape:window-x="1720"
+     inkscape:window-y="100"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" /><style
+     type="text/css"
+     id="style3">
 	.st0{fill:#352C43;}
 	.st1{fill:#3DB5C2;}
 	.st2{fill:#E9FEA9;}
 	.st3{fill:#62CEC0;}
 	.st4{fill:#FFFFFF;}
-</style>
-<path id="XMLID_49_" class="st0" d="M39.1,93.3c2.6-2.9,6.3-4.8,10.5-4.8c4.2,0,8,2,10.5,4.8h3.9c-3-4.7-8.4-8-14.5-8
-	s-11.4,3.3-14.5,8H39.1z"/>
-<path id="XMLID_48_" class="st0" d="M81.2,42.4C81.2,60,67,74,49.6,74S18.1,60,18.1,42.4h-4.3c0,19.7,16.1,35.9,35.9,35.9
-	s35.9-16.1,35.9-35.9H81.2z"/>
-<path id="XMLID_47_" class="st0" d="M65,42.4c0,0,0,0.1,0,0.1c0,8.5-6.9,15.3-15.4,15.3S34.3,51,34.3,42.5c0,0,0-0.1,0-0.1H30
-	c0,0,0,0.1,0,0.1c0,10.9,8.8,19.6,19.7,19.6s19.7-8.8,19.7-19.6c0,0,0-0.1,0-0.1H65z"/>
-<path id="XMLID_46_" class="st0" d="M73.1,42.1c0,0.4,0,0.3,0,0.4C73.1,55.4,62.5,66,49.6,66S26.2,55.4,26.2,42.5c0-0.1,0,0,0-0.4
-	h-4.3c0,0.4,0,0.3,0,0.4c0,15.3,12.4,27.8,27.7,27.8s27.7-12.5,27.7-27.8c0-0.1,0,0,0-0.4H73.1z"/>
-<path id="XMLID_8_" class="st1" d="M18.1,43.5C18.1,25.9,32.3,12,49.6,12s31.5,14,31.5,31.5h4.3c0-19.7-16.1-35.9-35.9-35.9
-	S13.8,23.8,13.8,43.5H18.1z"/>
-<path id="XMLID_7_" class="st2" d="M34.3,43.5c0,0,0-0.1,0-0.1c0-8.5,6.9-15.3,15.4-15.3S65,34.9,65,43.4c0,0,0,0.1,0,0.1h4.3
-	c0,0,0-0.1,0-0.1c0-10.9-8.8-19.6-19.7-19.6S30,32.6,30,43.4c0,0,0,0.1,0,0.1H34.3z"/>
-<path id="XMLID_6_" class="st3" d="M26.2,43.9c0-0.4,0-0.3,0-0.4C26.2,30.5,36.7,20,49.6,20s23.4,10.5,23.4,23.5c0,0.1,0,0,0,0.4
-	h4.3c0-0.4,0-0.3,0-0.4c0-15.3-12.4-27.8-27.7-27.8S21.9,28.2,21.9,43.5c0,0.1,0,0,0,0.4H26.2z"/>
-<rect id="XMLID_45_" x="49.1" y="42.5" class="st4" width="3.5" height="46.9"/>
-<rect id="XMLID_44_" x="47.9" y="42.5" class="st0" width="3.5" height="46"/>
-<rect id="XMLID_1_" x="12.5" y="42.4" class="st4" width="75" height="3.2"/>
+</style><path
+     id="XMLID_49_"
+     class="st0"
+     d="m 42.059444,79.190961 c 2.350283,-2.62147 5.694916,-4.338984 9.491526,-4.338984 3.79661,0 7.231638,1.80791 9.491525,4.338984 l 3.525424,0 c -2.711864,-4.248589 -7.59322,-7.231639 -13.107344,-7.231639 -5.514125,0 -10.305086,2.98305 -13.107345,7.231639 l 3.706214,0 z"
+     inkscape:connector-curvature="0"
+     style="fill:#352c43" /><path
+     id="XMLID_48_"
+     class="st0"
+     d="m 79.935151,33.179661 c 0,15.909604 -12.836159,28.564971 -28.564972,28.564971 -15.728815,0 -28.474577,-12.655367 -28.474577,-28.564971 l -3.887006,0 c 0,17.807909 14.553673,32.451977 32.451978,32.451977 17.898305,0 32.451978,-14.553673 32.451978,-32.451977 l -3.977401,0 z"
+     inkscape:connector-curvature="0"
+     style="fill:#352c43" /><path
+     id="XMLID_47_"
+     class="st0"
+     d="m 65.291083,33.179661 c 0,0 0,0.0904 0,0.0904 0,7.683616 -6.237288,13.830508 -13.920903,13.830508 -7.683617,0 -13.83051,-6.146892 -13.83051,-13.830508 0,0 0,-0.0904 0,-0.0904 l -3.887005,0 c 0,0 0,0.0904 0,0.0904 0,9.853107 7.954803,17.717514 17.80791,17.717514 9.853107,0 17.807909,-7.954803 17.807909,-17.717514 0,0 0,-0.0904 0,-0.0904 l -3.977401,0 z"
+     inkscape:connector-curvature="0"
+     style="fill:#352c43" /><path
+     id="XMLID_46_"
+     class="st0"
+     d="m 72.703512,32.908475 c 0,0.361581 0,0.271186 0,0.361581 0,11.661017 -9.581922,21.242938 -21.242938,21.242938 -11.661018,0 -21.152543,-9.581921 -21.152543,-21.242938 0,-0.0904 0,0 0,-0.361581 l -3.887005,0 c 0,0.361581 0,0.271186 0,0.361581 0,13.830508 11.209038,25.129943 25.039548,25.129943 13.830508,0 25.039548,-11.299435 25.039548,-25.129943 0,-0.0904 0,0 0,-0.361581 l -3.79661,0 z"
+     inkscape:connector-curvature="0"
+     style="fill:#352c43" /><path
+     id="XMLID_8_"
+     class="st1"
+     d="m 22.985999,34.174011 c 0,-15.909605 12.836157,-28.474576 28.474576,-28.474576 15.638418,0 28.474577,12.655367 28.474577,28.474576 l 3.887004,0 c 0,-17.807909 -14.553671,-32.4519777 -32.451976,-32.4519777 -17.898306,0 -32.271187,14.6440687 -32.271187,32.4519777 l 3.887006,0 z"
+     inkscape:connector-curvature="0"
+     style="fill:#3db5c2" /><path
+     id="XMLID_7_"
+     class="st2"
+     d="m 37.584867,34.174011 c 0,0 0,-0.0904 0,-0.0904 0,-7.683616 6.237288,-13.830509 13.920905,-13.830509 7.683615,0 13.830508,6.146893 13.830508,13.830509 0,0 0,0.0904 0,0.0904 l 3.887006,0 c 0,0 0,-0.0904 0,-0.0904 0,-9.853108 -7.954803,-17.717514 -17.80791,-17.717514 -9.853108,0 -17.717514,7.954802 -17.717514,17.717514 0,0 0,0.0904 0,0.0904 l 3.887005,0 z"
+     inkscape:connector-curvature="0"
+     style="fill:#e9fea9" /><path
+     id="XMLID_6_"
+     class="st3"
+     d="m 30.308031,34.535592 c 0,-0.361581 0,-0.271186 0,-0.361581 0,-11.751413 9.491525,-21.242938 21.152543,-21.242938 11.661016,0 21.152542,9.491525 21.152542,21.242938 0,0.0904 0,0 0,0.361581 l 3.887006,0 c 0,-0.361581 0,-0.271186 0,-0.361581 0,-13.830508 -11.20904,-25.129944 -25.039548,-25.129944 -13.83051,0 -25.039548,11.299436 -25.039548,25.129944 0,0.0904 0,0 0,0.361581 l 3.887005,0 z"
+     inkscape:connector-curvature="0"
+     style="fill:#62cec0" /><rect
+     id="XMLID_45_"
+     x="51.878654"
+     y="33.270061"
+     class="st4"
+     width="3.1638417"
+     height="42.395481"
+     style="fill:#ffffff" /><rect
+     id="XMLID_44_"
+     x="49.878654"
+     y="33.270061"
+     class="st0"
+     width="3.1638417"
+     height="41.581921"
+     style="fill:#352c43" /><rect
+     id="XMLID_1_"
+     x="17.562271"
+     y="33.179665"
+     class="st4"
+     width="67.796608"
+     height="2.8926556"
+     style="fill:#ffffff" /><text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.06268597px;line-height:125%;font-family:Bitter;-inkscape-font-specification:'Bitter, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="7.6714907"
+     y="94.514748"
+     id="text4147"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4149"
+       x="7.6714907"
+       y="94.514748">THREETORAH</tspan></text>
 </svg>
