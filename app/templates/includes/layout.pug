@@ -1,36 +1,22 @@
 doctype html
 html(lang="en")
   include head
-  body#tiagofernandes.home
+  body#threetorah.home
     div.container
       div.box
         .loader
         .transition
         header
-          div.name
-            h1 TIAGO DE ARAUJO FERNANDES
-          div.logo
-            img(src="../img/logo0a.png" alt="Tiago de A. Fernandes" draggable="false")
+          include logo
           nav
             ul
               li
-                a(href="#") WORK
+                a(href="#") Sobre
               li
-                a(href="#") LAB
+                a(href="#") Projeto
               li
-                a(href="#") ABOUT
-      #canvas
+                a(href="#") Contato
+      include header
     include footer
-  //script(src='/js/vendor/three.js')
-  //script(src='/js/vendor/EffectComposer.js')
-  //script(src='/js/vendor/shaders/ShaderPass.js')
-  //script(src='/js/vendor/shaders/RenderPass.js')
-  //script(src='/js/vendor/shaders/CopyShader.js')
-  //script(src='/js/vendor/shaders/SepiaShader.js')
-  //script(src='/js/vendor/shaders/DigitalGlitch.js')
-  //script(src='/js/vendor/shaders/GlitchPass.js')
-  //script(src='/js/vendor/shaders/MaskPass.js')
-  //script(type="text/javascript").
-
   script(src='/js/app.min.js')
-  script(src='/js/vendor.min.js')
+

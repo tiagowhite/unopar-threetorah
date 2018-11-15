@@ -9,24 +9,23 @@ $font-family-monospace: 'Open Sans', monaco, serif;
 $heading-family: $font-family-serif;
 $heading-weight: 300;
 
-$form-font: $font-family-monospace;
-
 /*
  _Colors
  */
 
-$tidal                        rgba(223, 254, 169, 1)!default;
-$paleprim                     rgba(254, 249, 182, 1)!default;
-$downy                        rgba(98, 206, 192, 1)!default;
-$riptide                      rgba(137, 236, 210, 1)!default;
-$cerulean                     rgba(35, 87, 171, 1)!default;
-$pelorous                     rgba(61, 181, 194, 1)!default;
-$blackcurrant                 rgba(53, 44, 67, 1)!default;
-$chambray                     rgba(50, 74, 138, 1)!default;
+$paleprim:            rgba(254, 249, 182, 1) !default;
+$tidal:               rgba(223, 254, 169, 1) !default;
+$riptide:             rgba(137, 236, 210, 1) !default;
+$downy:               rgba(98, 206, 192, 1) !default;
+$pelorous:            rgba(61, 181, 194, 1) !default;
+$cerulean:            rgba(35, 87, 171, 1) !default;
+$chambray:            rgba(50, 74, 138, 1) !default;
+$blackcurrant:        rgba(53, 44, 67, 1) !default;
+
 //#DEFAULTS
-$site-background-color: 		  $paleprim;
-$site-h1-hello: 			        $chambray;
+$site-background-color: #fff;
+$site-h1-hello: $chambray;
 
 //Defaul images
-/*$site-logo: 				          url('../img/logo0a.png');
-$site-background-image:       url('../img/bg00.jpg');*/
+$site-logo: url('../img/threetorah.svg');
+

@@ -72,24 +72,6 @@ const scripts = () => {
 
 };
 
-const vendor = () => {
-  return gulp.src("./app/js/3d.js")
-    .pipe($.include({
-      extensions: "js",
-      hardFail: true,
-      includePaths: [
-        __dirname + "/node_modules/three"
-      ]
-    }))
-    .pipe($.if(!argv.pretty, $.uglify({})))
-    .pipe($.header(banner, {pkg}))
-    .pipe($.size({title: 'Vendor'}))
-    .pipe($.concat(config.js_file_name_vendor))
-    .pipe(gulp.dest(config.js_dest));
-};
-
-
-
 const views = () => {
   return gulp.src(config.templates_src)
     .pipe($.plumber())
@@ -121,7 +103,7 @@ const reload = (done) => {
   done();
 };
 
-const serve = gulp.series(clean, styles, scripts, vendor, views, fonts, images, (done) => {
+const serve = gulp.series(clean, styles, scripts, views, fonts, images, (done) => {
   const startTime = Date.now();
   console.log('\x1b[42m************************************\x1b[0m\n');
   console.log('\x1b[32m  Project ready for coding 😎\x1b[0m\n');
@@ -139,14 +121,14 @@ const serve = gulp.series(clean, styles, scripts, vendor, views, fonts, images, 
   gulp.watch(['./app/templates/**/*.pug'], gulp.series(views), reload);
   gulp.watch(['./app/**/*.html']).on('change', reload);
   gulp.watch(['./app/css/**/*.scss'], gulp.series(styles), reload);
-  gulp.watch(['./app/js/*.js'], gulp.series(scripts, vendor), reload);
+  gulp.watch(['./app/js/*.js'], gulp.series(scripts), reload);
   gulp.watch(['./app/img/!**!/!*'], reload);
 
   done();
 });
 
 
-gulp.task('production', gulp.series(clean, styles, scripts, vendor, views, fonts, images), () => {
+gulp.task('production', gulp.series(clean, styles, scripts, views, fonts, images), () => {
   gulp.series('copy')
 });
 
