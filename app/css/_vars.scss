@@ -3,7 +3,7 @@
  */
 
 $font-size: 18px;
-$font-family-serif: 'Bitter', sans-serif !important;
+$font-family-serif: 'Roboto Slab', serif;
 $font-family-monospace: 'Open Sans', monaco, serif;
 
 $heading-family: $font-family-serif;
@@ -27,5 +27,6 @@ $site-background-color: #fff;
 $site-h1-hello: $chambray;
 
 //Defaul images
-$site-logo: url('../img/threetorah.svg');
+$site-logo-svg: url('../img/threetorah3.svg');
+$site-logo-image: url('../img/threetorah3.png');
 
