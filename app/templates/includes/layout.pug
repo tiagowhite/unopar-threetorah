@@ -2,21 +2,13 @@ doctype html
 html(lang="en")
   include head
   body#threetorah.home
-    div.container
-      div.box
-        .loader
-        .transition
-        header
-          include logo
-          nav
-            ul
-              li
-                a(href="#") Sobre
-              li
-                a(href="#") Projeto
-              li
-                a(href="#") Contato
-      include header
+    .container
+      .loader
+      .transition
+      header
+        include logo
+        include nav
+      include content
     include footer
   script(src='/js/app.min.js')
 
