@@ -21,6 +21,21 @@ body#threetorah {
     width: 70%;
     padding: 1rem 1rem;
     max-width: 1140px;
+    .skew {
+      position: relative;
+    }
+    .skew:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: skewY(-5deg);
+      transform-origin: top left;
+      z-index: -1;
+      background-color: #f8f9fa;
+    }
   }
 }
 
@@ -44,6 +59,7 @@ header > nav {
 }
 header > nav > ul {
   padding: 0;
+  margin-right: 1rem;
 }
 header > nav > ul > li:first-child { margin-left: 0;}
 header > nav > ul > li { display: inline-block; margin-left: 20px; font-family: $font-family-serif}
@@ -111,28 +127,85 @@ footer {
 }
 
 .content {
-  padding: 3rem 3rem;
-}
-p.hello {
-  color: $cerulean;
-  font-family: $font-family-monospace;
-  strong { color: $chambray }
-  small { color: $chambray; display: block; margin-top: 10px;}
+  padding: 3rem 0;
+  .col-lg-6 { padding: 0 18px}
+    a.more {
+      font-size: .875rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      display: inline-block;
+      color: #fff;
+      background-color: $chambray;
+      border-color: $cerulean;
+      box-shadow: 0 7px 16px 0 rgba(0, 0, 0, .2);
+      padding: .875rem 1.5rem;
+      border-radius: 10rem;
+      font-weight: 600;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      text-decoration: none;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    a.more:hover {
+      color: #fff;
+      background-color: $cerulean;
+      border-color: $chambray;
+      box-shadow: none;
+    }
+  .card {
+    border: #fff 5px solid;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 39px -10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 5px 39px -10px rgba(0,0,0,0.6);
+    box-shadow: 0px 5px 39px -10px rgba(0,0,0,0.6);
+    .media {
+      min-width: 0;
+      margin: 5px;
+      img {
+        width: 450px;
+        max-width: 100%;
+        max-height: 450px;
+      }
+      figure {
+        margin: 0;
+        background-size: cover;
+        background: url(../img/floresta.jpg) center;
+        width: 100%;
+        height: 320px; //whatever height you want
 
+      }
+    }
+
+  }
+  p.hello {
+    color: $blackcurrant;
+    font-family: $font-family-monospace;
+    font-size: 1.25rem;
+    padding: 0;
+    margin: 0 0 3rem 0;
+    strong { color: $chambray }
+    small { color: $chambray; display: block; margin-top: 10px;}
+
+  }
+
+  p.hello {
+    -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+
+  h1.heading {
+    color: $chambray;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: $font-family-serif;
+    -webkit-animation: fade-in-bck 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-bck 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
 }
 
-p.hello {
-  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-  animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-h1.heading {
-  color: $chambray;
-  font-weight: 600;
-  font-family: $font-family-serif;
-  -webkit-animation: fade-in-bck 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-  animation: fade-in-bck 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
 
 
 
