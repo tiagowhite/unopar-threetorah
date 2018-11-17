@@ -7,7 +7,7 @@ html {
 body {
   font-weight: 300;
   font-size: 15px;
-  background-color: $site-background-color;
+  background-color: #fff;
   font-family: $font-family-monospace;
   margin: 0;
   padding: 0;
@@ -21,21 +21,6 @@ body#threetorah {
     width: 70%;
     padding: 1rem 1rem;
     max-width: 1140px;
-    .skew {
-      position: relative;
-    }
-    .skew:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      transform: skewY(-5deg);
-      transform-origin: top left;
-      z-index: -1;
-      background-color: #f8f9fa;
-    }
   }
 }
 
@@ -62,14 +47,14 @@ header > nav > ul {
   margin-right: 1rem;
 }
 header > nav > ul > li:first-child { margin-left: 0;}
-header > nav > ul > li { display: inline-block; margin-left: 20px; font-family: $font-family-serif}
+header > nav > ul > li { display: inline-block; margin-left: 20px; font-family: $font-family-monospace; font-weight: normal}
 header > nav > ul > li > a {
   display: block;
   padding: 10px 0;
   position: relative;
   transition: color .35s ease;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
 }
 header > nav > ul > li > a {
   display: inline-block;
@@ -77,10 +62,10 @@ header > nav > ul > li > a {
   transform: translateX(0);
   transition: -webkit-transform .3s cubic-bezier(.694,.048,.335,1);
 }
-header > nav > ul > li > a { fill: $riptide; transition: all .25s }
+header > nav > ul > li > a { fill: $text; transition: all .25s }
 
 header > nav > ul > li > a:before {
-  background-color: $riptide;
+  background-color: $green;
   transition: all .25s cubic-bezier(.694,.048,.335,1) .15s
 }
 header > nav > ul > li > a:after,
@@ -96,12 +81,12 @@ header > nav > ul > li > a:before {
 }
 
 header > nav > ul > li > a:after {
-  background-color: $pelorous;
+  background-color: $green;
   transition: all .25s cubic-bezier(.694,.048,.335,1)
 }
 
-header > nav > ul > li > a { color: $cerulean; text-decoration: none; margin: 0; padding: 0; transition: color .35s ease;}
-header > nav > ul > li > a:hover { color: $blackcurrant; transform: translateX(0);}
+header > nav > ul > li > a { color: $site-text; text-decoration: none; margin: 0; padding: 0; transition: color .35s ease;}
+header > nav > ul > li > a:hover { color: $green; transform: translateX(0);}
 
 @media only screen and (min-width: 64em) {
   header > nav > ul > li > a:hover:after,
@@ -121,8 +106,8 @@ footer {
   ul > li { margin-right: 1em;}
   ul > li:last-child { margin-right: 0;}
   ul > li > a > svg { width: 16px;height: 16px; }
-  ul > li > a > svg > path { fill: $paleprim; }
-    ul > li > a:hover > svg > path { fill: $chambray; transition: color .35s ease;}
+  ul > li > a > svg > path { fill: $green; }
+    ul > li > a:hover > svg > path { fill: $palegreen; transition: color .35s ease;}
 
 }
 
@@ -135,8 +120,8 @@ footer {
       text-transform: uppercase;
       display: inline-block;
       color: #fff;
-      background-color: $chambray;
-      border-color: $cerulean;
+      background-color: $green;
+      border-color: $palegreen;
       box-shadow: 0 7px 16px 0 rgba(0, 0, 0, .2);
       padding: .875rem 1.5rem;
       border-radius: 10rem;
@@ -149,8 +134,8 @@ footer {
     }
     a.more:hover {
       color: #fff;
-      background-color: $cerulean;
-      border-color: $chambray;
+      background-color: $palegreen;
+      border-color: $green;
       box-shadow: none;
     }
   .card {
@@ -179,13 +164,10 @@ footer {
 
   }
   p.hello {
-    color: $blackcurrant;
-    font-family: $font-family-monospace;
-    font-size: 1.25rem;
+    color: $site-text;
     padding: 0;
     margin: 0 0 3rem 0;
-    strong { color: $chambray }
-    small { color: $chambray; display: block; margin-top: 10px;}
+    strong { color: $egg }
 
   }
 
@@ -195,7 +177,7 @@ footer {
   }
 
   h1.heading {
-    color: $chambray;
+    color: $site-text;
     padding: 0;
     margin: 0 0 1rem 0;
     font-weight: 500;
