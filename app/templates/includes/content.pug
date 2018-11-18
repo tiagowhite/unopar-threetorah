@@ -1,13 +1,18 @@
-.row.content
-  .col-lg-6
-    .box
-      .text
-         h1.heading
+main#content
+  .container
+    .row.justify-content-lg-between.align-items-lg-center.py-5
+      .col-lg-6
+        .h1.display-4
           | Reposição florestal
-         p.hello
+        .p.lead.mb-4
           | A reposição florestal é a compensação do volume de matéria-prima extraído de vegetação natural pelo volume de matéria-prima...
-      a.more(href="#") SAIBA MAIS
-  .col-lg-6
-    .card
-      .media
-        figure
+        a.btn.btn-pill.btn-primary(href="#") SAIBA MAIS
+      .col-lg-6
+        .card
+          .media
+            figure
+  .bg-skew.bg-skew-light
+    .container
+      .row.justify-content-lg-between.align-items-lg-center.py-5
+        .col-lg-12
+          include modelo

@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: $font-family-monospace;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $site-text;
+  text-align: left;
+  background-color: #fff;
+}
+
+.navbar-nav > li {
+  margin-left: 20px;
+  font-weight: normal;
+  display: inline-block;
+  a {
+    display: block;
+    padding: .5rem 1rem;
+    position: relative;
+    transition: color .35s ease;
+    font-weight: 400;
+    font-size: .875rem;
+    color: $site-text;
+    text-decoration: none;
+    margin: 0;
+  }
+  a {
+    display: inline-block;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    transition: -webkit-transform .3s cubic-bezier(.694,.048,.335,1);
+    fill: $text; transition: all .25s;
+    &:before {
+      background-color: $green;
+      transition: all .25s cubic-bezier(.694,.048,.335,1) .15s
+    }
+    &:after, &:before {
+      content: "";
+      position: absolute;
+      top: 30px;
+      right: 0;
+      left: auto;
+      width: 0;
+      height: 2px;
+      z-index: 2
+    }
+    &:after {
+      background-color: $palegreen;
+      transition: all .25s cubic-bezier(.694,.048,.335,1);
+    }
+    &:hover {
+      color: $green;
+      transform: translateX(0);
+    }
+  }
+}
+@media only screen and (min-width: 64em) {
+  .navbar-nav > li {
+    a:hover:after,
+    a:hover:before {
+      width:100%;
+      left: 0;
+    }
+  }
+}
+
+header > nav > div > a {
+  .navabar-brand > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.card {
+  border: #fff 5px solid;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 39px -10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 5px 39px -10px rgba(0,0,0,0.6);
+  box-shadow: 0px 5px 39px -10px rgba(0,0,0,0.6);
+  .media {
+    min-width: 0;
+    margin: 5px;
+    img {
+      width: 450px;
+      max-width: 100%;
+      max-height: 450px;
+    }
+    figure {
+      margin: 0;
+      background-size: cover;
+      background: url(../img/floresta.jpg) center;
+      width: 100%;
+      height: 320px; //whatever height you want
+
+    }
+  }
+}
+
+.bg-skew {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: skewY(-5deg);
+    transform-origin: top left;
+    z-index: -1
+  }
+}
+.bg-skew-light:before {
+  background-color: #f8f9fa;
+}
+
+
+footer {
+  width: auto;
+  height: 50px;
+  p {
+    text-align: center
+  }
+  ul, li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  ul > li {
+    margin-right: 1em;
+  }
+  ul > li:last-child {
+    margin-right: 0;
+  }
+  ul > li > a > svg {
+    width: 16px;
+    height: 16px;
+  }
+  ul > li > a > svg > path {
+    fill: $green;
+  }
+  ul > li > a:hover > svg > path {
+    fill: $palegreen;
+  }
+}
+
+.btn-primary {
+  color: $cream;
+  background-color: $palegreen;
+  border-color: $green;
+  &:hover {
+    background-color: $green;
+    border-color: $palegreen;
+  }
+  &:active {
+    background-color: $palegreen!important;
+    border-color: $green!important;
+  }
+}
+.btn-pill {
+  border-radius: 10rem
+}
+
+.display-4 {
+  font-size: 2.75rem;
+
+}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+  margin-bottom: 1rem;
+  font-family: Merriweather,serif;
+}

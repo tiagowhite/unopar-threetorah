@@ -20,5 +20,7 @@
   "js_file_name_vendor": "vendor.min.js",
   "js_dest": "./dist/js",
   "img_src": "./app/img/**/*",
-  "img_dest": "./dist/img"
+  "img_dest": "./dist/img",
+  "data_src": "./app/data/*.json",
+  "data_dest": "./dist/data"
 }
