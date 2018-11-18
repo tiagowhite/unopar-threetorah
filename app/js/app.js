@@ -41,3 +41,8 @@ buildTable(buildData());
 textEffect();
 
 
+const calcula = (mcubicos) => {
+  const total = (mcubicos * 6);
+  return "Total de Arvores para para plantio: " + total;
+};
+console.log(calcula(10));
