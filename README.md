@@ -19,7 +19,10 @@ _Trabalho interdisciplinar 2018/02 - TIAGO DE ARAUJO FERNANDES_
  semestre, trazendo uma atividade cotidiana na qual podemos implementar na prática o
  que foi estudado, trazendo a aplicação da teoria aprendida.                                
 
+
 **TECNOLOGIAS**
+
+
 _Sobre as tecnologias utilizadas na criação do site:_
 
 **GIT**: Gerenciador de código fonte
