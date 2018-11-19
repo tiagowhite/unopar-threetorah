@@ -11,7 +11,7 @@ const textEffect = () => {
   }).reveal(1000);
 };
 
-const buildData = () => {
+const buildData = (count) => {
   const estados = data;
   const ano = Array.range(2000, 2018);
   const estado = [];
@@ -19,30 +19,38 @@ const buildData = () => {
     estado.push(key.nome);
   });
   return {
+    "count": count,
     "ano": ano[Math.floor(Math.random() * ano.length)],
     "estado": estado[Math.floor(Math.random() * estado.length)],
     "cortadas": Math.floor(Math.random() * (1000)),
-    "volume": Math.floor(Math.random() * (100000)) + "m3",
+    "volume": Math.floor(Math.random() * (100000)) + " m3",
     "repostas": Math.floor(Math.random() * (1000)),
-    "valor": null
+    "valor": "R$ " + calcula(Math.floor(Math.random() * (100000)))
   };
 };
 
-const buildTable = (data) => {
-
-  const table = document.querySelector("table#modelo tr#data");
-  let ano = table.getElementsByClassName("ano")
-
-
-
+const calcula = (mcubicos) => {
+  const total = (mcubicos * 6);
+  return total;
 };
 
-buildTable(buildData());
+const buildTable = (id, loop) => {
+  const table = document.getElementById(id).getElementsByTagName('tbody')[0];
+
+  let newRow = undefined;
+  for (let i = 0; i < loop; i++) {
+    newRow = table.insertRow(table.rows.length);
+    newRow.classList.add('data');
+    for (let k = 0; k < 7; k++) {
+      newRow.insertCell(k);
+      document.getElementsByClassName('data')[i].children[k].appendChild(document.createTextNode(Object.values(buildData(i))[k]))
+    }
+  }
+};
+
+buildTable("modelo", 10);
+
 textEffect();
 
 
-const calcula = (mcubicos) => {
-  const total = (mcubicos * 6);
-  return "Total de Arvores para para plantio: " + total;
-};
-console.log(calcula(10));
+
