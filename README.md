@@ -22,6 +22,7 @@ _Trabalho interdisciplinar 2018/02 - TIAGO DE ARAUJO FERNANDES_
 
 **TECNOLOGIAS**
 
+[PARA VISUALIZAR O SITE ACESSAR AQUI](http://tiagofernandes.me/threetorah)
 
 _Sobre as tecnologias utilizadas na criação do site:_
 
